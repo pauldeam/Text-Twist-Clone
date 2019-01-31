@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="grid-container">
+      <div>
+        <h1>Text Twist</h1>
+        </center>
+        <div id="directions">
+            The object of the game is to guess as many words as you can </br>
+            from the seven random letters given. 
+        </div>
+      </div>
+      
+      <div>
+        <button id="getLetters">Click Here for a New Game</button></br>
+        <p class="letters"></p>
+        <p hidden class="words"></p>
+      </div>
+      
+      <div>
+        Initail number of Words: <span id="demo"></span></br>
+
+        Words left with 3 letters: <span id="three"></span></br>
+        Words left with 4 letters: <span id="four"></span></br>
+        Words left with 5 letters: <span id="five"></span></br>
+        Words left with 6 letters: <span id="six"></span></br>
+        <!--Words left with 7 letters: <span id="seven"></span></br>-->
+      </div>
+      
+      <div>
+        Take a Guess: <input type="text" id="guess">
+        <input type="button" value="Submit" onClick="submitGuess()"><br/> Correct Guesses: <span id="correct"></span></br>
+        Incorrect Guess: <span id="incorrect"></span></br>
+      </div>
+  
+    </div>
+    
+    <!--<header id="title">-->
+    <!--    <h1>Text Twist</h1>-->
+    <!--    </center>-->
+    <!--</header>-->
+
+    <!--<div id="letters">-->
+    <!--    <button id="getLetters">Click Here for a New Game</button></br>-->
+    <!--    <p class="letters"></p>-->
+    <!--    <p hidden class="words"></p>-->
+    <!--</div>-->
+
+
+    <!--<div id="input">-->
+    <!--    Take a Guess: <input type="text" id="guess">-->
+    <!--    <input type="button" value="Submit" onClick="submitGuess()"><br/> Correct Guesses: <span id="correct"></span></br>-->
+    <!--    Incorrect Guess: <span id="incorrect"></span></br>-->
+    <!--</div>-->
+
+
+    <!--<div id="key">-->
+    <!--    Initail number of Words: <span id="demo"></span></br>-->
+
+    <!--    Words left with 3 letters: <span id="three"></span></br>-->
+    <!--    Words left with 4 letters: <span id="four"></span></br>-->
+    <!--    Words left with 5 letters: <span id="five"></span></br>-->
+    <!--    Words left with 6 letters: <span id="six"></span></br>-->
+    <!--    Words left with 7 letters: <span id="seven"></span></br>-->
+    <!--</div>-->
+
+
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
